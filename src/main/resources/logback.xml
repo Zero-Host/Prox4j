@@ -1,0 +1,23 @@
+<configuration>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{45} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="error">
+        <appender-ref ref="STDOUT" />
+    </root>
+
+
+    <logger name="zero.host.Prox4j" level="INFO" />
+
+    <logger name="zero.host.zero.host.Prox4j.v1.node.Ticket" level="WARN" />
+    <logger name="zero.host.zero.host.Prox4j.v1.node.lxc.Info" level="ERROR" />
+
+    <logger name="zero.host.zero.host.Prox4j.v2.lxc.LXC" level="INFO" />
+
+
+
+</configuration>
